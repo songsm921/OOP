@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/melody">
+        <file>0_4.wav</file>
+        <file>0_5.wav</file>
+        <file>1_4.wav</file>
+        <file>1_5.wav</file>
+        <file>2_4.wav</file>
+        <file>2_5.wav</file>
+        <file>3_4.wav</file>
+        <file>3_5.wav</file>
+        <file>4_4.wav</file>
+        <file>5_4.wav</file>
+        <file>6_4.wav</file>
+        <file>7_4.wav</file>
+        <file>8_4.wav</file>
+        <file>9_4.wav</file>
+        <file>10_4.wav</file>
+        <file>11_4.wav</file>
+    </qresource>
+</RCC>

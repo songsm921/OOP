@@ -1,2 +1,2 @@
 # Team Project
-## IDE: QT Creator
+> IDE: QT Creator

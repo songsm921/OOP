@@ -1,0 +1,2 @@
+prob_1.cpp : 문제 1번의 소스 코드입니다.
+Makefile : prob_1.cpp의 Makefile입니다.

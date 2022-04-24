@@ -1,0 +1,2588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>committee</class>
+ <widget class="QWidget" name="committee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1000</width>
+     <height>900</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>1HoonJumbomambo</family>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="tabPosition">
+    <enum>QTabWidget::North</enum>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string notr="true">1학년</string>
+    </attribute>
+    <widget class="QTextEdit" name="textEdit_15">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    상반기</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_17">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>670</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_18">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    하반기</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_19">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>500</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_20">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>330</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  축준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_11">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>330</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_12">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>500</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_13">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>670</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_21">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>280</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  포준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_14">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>280</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_22">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  새준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_15">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>400</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_92">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>530</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  졸준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_16">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>530</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_93">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>650</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_17">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>650</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_94">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>760</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_18">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>760</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_1">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>560</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>530</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>700</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>680</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>790</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>430</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>360</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>310</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_50">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>40</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string notr="true">2학년</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>530</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_25">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>400</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>670</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_28">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>760</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_24">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>280</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_27">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>650</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_22">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>500</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_95">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>650</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>680</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>430</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_21">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>330</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_23">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    하반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>700</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_26">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>530</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>790</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_24">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>330</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  축준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_25">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>500</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_96">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>530</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  졸준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_26">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>670</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_27">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  새준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_28">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>280</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  포준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>310</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>560</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_29">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    상반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>360</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_97">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>760</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_51">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>40</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string notr="true">3학년</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_22">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>530</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_35">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>400</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_33">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>670</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_38">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>760</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_34">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>280</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_37">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>650</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_32">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>500</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_98">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>650</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_23">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>680</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>430</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_31">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>330</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_30">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    하반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>700</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_36">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>530</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_24">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>790</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_31">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>330</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  축준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_32">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>500</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_99">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>530</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  졸준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_33">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>670</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_34">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  새준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_35">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>280</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  포준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_19">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>310</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_20">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>560</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_36">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    상반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_21">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>360</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_100">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>760</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_52">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>40</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string notr="true">4학년</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_33">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>530</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_45">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>400</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_43">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>670</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_48">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>760</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_44">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>280</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_47">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>650</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_42">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>500</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_101">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>650</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_31">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>680</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_25">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>430</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_41">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>330</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_37">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 85, 255);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    하반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_27">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>700</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_46">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>530</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_32">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>790</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_38">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>330</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  축준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_39">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>500</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  엠준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_102">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>530</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  졸준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_40">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>670</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_41">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>400</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  새준위</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_42">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>280</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  포준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_28">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>310</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_29">
+     <property name="geometry">
+      <rect>
+       <x>780</x>
+       <y>560</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_43">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>130</y>
+       <width>341</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>35</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 0);</string>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>    상반기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_30">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>360</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>13</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>역할</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit_103">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>760</y>
+       <width>141</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>18</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+     <property name="placeholderText">
+      <string>  생준위</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_53">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>40</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>1HoonJumbomambo</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

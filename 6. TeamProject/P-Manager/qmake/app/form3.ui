@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1000</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>3</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>1</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Name : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>YourRole : </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>120</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>60</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>110</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apply</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>270</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>900</x>
+       <y>780</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Save</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>자치단체</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>2</string>
+    </attribute>
+    <widget class="QTableWidget" name="table2_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="load2">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="check2_1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>60</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="role2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>120</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>YourRole : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Name : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>자치단체</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="check2_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>120</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="apply2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apply</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table2_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>270</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="name2">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>3</string>
+    </attribute>
+    <widget class="QLineEdit" name="role3">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>120</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="name3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>YourRole : </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="apply3">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apply</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table3_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="check3_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>120</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="load3">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table3_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>270</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="check3_1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>60</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Name : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>자치단체</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>4</string>
+    </attribute>
+    <widget class="QTableWidget" name="table4_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>550</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Name : </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="apply4">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Apply</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="role4">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>120</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="check4_1">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>60</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>530</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="load4">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>170</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Load</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="name4">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>81</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>YourRole : </string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>자치단체</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="table4_1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>270</y>
+       <width>1000</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="autoScroll">
+      <bool>false</bool>
+     </property>
+     <row>
+      <property name="text">
+       <string>1.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3.</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4.</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>YourRole</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>64</width>
+       <height>15</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>1학기</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="check4_2">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>120</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2학기</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

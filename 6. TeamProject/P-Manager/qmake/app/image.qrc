@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>image/ponix.jpg</file>
+        <file>image/ready.jpg</file>
+        <file>image/port.jpg</file>
+        <file>image/main.jpg</file>
+    </qresource>
+</RCC>
